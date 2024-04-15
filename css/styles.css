@@ -1,0 +1,166 @@
+/*
+Colores
+  cyan: hsl(179, 62%, 43%)
+  lime: hsl(71, 73%, 54%)
+  grey: hsl(204, 43%, 93%)
+  light-blue: hsl(218, 22%, 67%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #000;
+}
+
+
+.container{
+  background-color: white;
+   font-family: "Karla", sans-serif;
+   width: 800px;
+   height: 600px;
+   margin: 0 auto;
+   margin-top: 200px;
+   
+   
+}
+
+.block-top{
+  display: inline-block;
+  position: relative;
+  background-color:transparent;
+  width: inherit;
+  height: 250px;
+  line-height: 2rem;
+  
+}
+
+.block-botton{
+ 
+  display: flex;
+  width: inherit;
+  height: 350px;
+  
+  
+}
+
+.texts_top{
+  
+  margin: 5px;
+}
+
+.block-botton__left{
+  background-color: rgb(51, 204, 204);
+  width: 400px;
+}
+
+.block-bottom__rigth{
+  background-color: rgb(0, 153, 153);
+  width: 400px;
+}
+
+
+/* estilo a las letras */
+
+    /*letra preincioal del header*/
+    
+    .text-inicio{
+      
+      font-family: "Karla", sans-serif;
+      font-size: 35px;
+      font-weight:700;
+      margin-left: 30px;
+      color: rgb(8, 171, 171);
+
+    }
+    
+   
+
+    .text-hd-2{
+      font-size: 30px;
+      font-weight: 400;
+      margin-left: 30px;
+      font-family: "Karla", sans-serif;
+      color: rgb(188, 230, 0);
+    }
+    
+    .text-hd-light{
+      color: rgba(128, 128, 128, 0.57);
+      font-family: "Karla", sans-serif;
+      
+      margin-left: 30px;
+      font-weight:700;
+      font-size: 20px;
+    }
+    
+    
+    /*letra del bloque izquierdo*/
+    
+    .texto{
+      margin-left: 30px;
+      padding: 20px;
+      
+      line-height: 3rem;
+      height:90% ;
+      
+    }
+
+    .text-inicio-sub{
+      color: white;
+      font-size: 30px;
+    }
+    .num-tex{
+      color: white;
+      font-size: 60px;
+    }
+    .tex-light{
+      color: rgba(100, 102, 102, 0.236);
+      font-size: 35px;
+    }
+    
+    .script{
+      color: rgba(245, 241, 241, 0.966);
+      font-size: 20px;
+    }
+    
+    .buttom{
+      background-color:rgb(188, 230, 0) ;
+      color: rgba(245, 241, 241, 0.966);;
+      padding: .5rem 7rem;
+      text-decoration: none;
+      border-radius: 7px;
+      font-size: 24px;
+      box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.418);
+    }
+
+
+    /*letra del bloque derecho*/
+
+    .text-right{
+      color: white;
+      
+      margin: 5px;
+      padding: 30px;
+    }
+    .text-right h2{
+      margin-left: 30px;
+    }
+    .text-right li{
+      
+      font-size: 22px;
+      list-style: none;
+      font-weight: 200;
+      
+    }
+
